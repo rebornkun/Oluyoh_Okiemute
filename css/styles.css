@@ -584,6 +584,7 @@ h3.my_profession{
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
+    min-height: 350px;
 }
 
 .services .service_item .service_item_inner:hover{
@@ -663,6 +664,73 @@ h3.my_profession{
     width: 100%;
     display: block;
 }
+
+.portfolio_item_title{
+    width: 100%;
+    font-size: 13px;
+    color: var(--text-black-900);
+    font-weight: 200;
+    overflow: hidden;
+}
+
+.portfolio_item_subtitle{
+    width: 100%;
+    font-size: 11px;
+    color: var(--text-black-700);
+    font-weight: 200;
+    overflow: hidden;
+}
+
+.portfolio_column{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.portfolio_item_icons{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+.portfolio_item_icons .icon{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px 0px;
+}
+
+
+.portfolio_item_icons .icon i{
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+    line-height: 10px;
+    color: var(--skin-color);
+}
+
+.portfolio_item_icons .icon:hover{
+    border-radius: 50%;
+    background-color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+.portfolio_item_icons .icon:hover i{
+    font-size: 15px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.portfolio_item_icons .icon a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
 
 /* contact */
 .contact_title{
