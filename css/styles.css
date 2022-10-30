@@ -271,7 +271,7 @@ ul{
     left: 0;
 }
 .aside .nav_toggler.open span::after{
-    transform: rotate(-45deg);
+    transform: rotate(-135deg);
     top: 0;
 }
 
